@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Vertical Navbar</title>
+    <style>
+        /* Resetting some default styles for better aesthetics */
+        body, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Styling the Navigation Bar */
+        .navbar {
+            background-color: #3498db; /* Set background color */
+            width: 200px; /* Set a fixed width for the vertical navbar */
+            position: fixed; /* Fixed position ensures it stays in place while scrolling */
+            height: 100%; /* Occupy full height of the viewport */
+            overflow: hidden; /* Hide content that overflows the navbar */
+        }
+
+        /* Style for navbar links */
+        .navbar a {
+            display: block; /* Convert links to block elements for styling */
+            color: white;
+            text-align: center;
+            padding: 16px; /* Add padding for better clickability */
+            text-decoration: none;
+        }
+
+        /* Change color on hover */
+        .navbar a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+</div>
+
+<!-- Content goes here -->
+
+</body>
+</html>
